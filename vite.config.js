@@ -8,10 +8,5 @@ export default defineConfig({
             refresh: true,
         }),
     ],
-    server: {
-        https: true,
-        hmr: {
-            host: 'laravelprojectt-production.up.railway.app',
-        },
-    },
+    base: '/build/',
 });
