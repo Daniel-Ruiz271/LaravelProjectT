@@ -1,4 +1,5 @@
 @extends('layouts.app')
+@vite(['resources/css/app.css', 'resources/js/app.js'])
 
 @section('content')
 <div class="min-h-screen bg-gradient-to-br from-indigo-900 via-purple-800 to-indigo-900 py-4 relative overflow-hidden">
