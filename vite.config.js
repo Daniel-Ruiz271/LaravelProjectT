@@ -8,5 +8,10 @@ export default defineConfig({
             refresh: true,
         }),
     ],
-    base: process.env.VITE_BASE_URL || '/',
+    server: {
+        https: true,
+        hmr: {
+            host: 'laravelprojectt-production.up.railway.app',
+        },
+    },
 });
